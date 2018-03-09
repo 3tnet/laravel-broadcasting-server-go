@@ -10,6 +10,10 @@ cd $GOPATH/src/github.com/3tnet/laravel-broadcasting-server-go/cmd
 go build -o server main.go
 ```
 
+# 下载
+
+[下载 v0.1](https://github.com/3tnet/laravel-broadcasting-server-go/releases/tag/v0.1 "下载 v0.1")
+
 # 快速开始
 
 ```
