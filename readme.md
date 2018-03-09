@@ -5,8 +5,9 @@
 # Build
 
 ```
-go get -u
-go build -o server cmd/main.go
+go get github.com/3tnet/laravel-broadcasting-server-go
+cd $GOPATH/src/github.com/3tnet/laravel-broadcasting-server-go/cmd
+go build -o server main.go
 ```
 
 # Quick Start
@@ -32,8 +33,15 @@ docker run -d -p 9999:9999 registry.cn-hangzhou.aliyuncs.com/ty666/laravel-broad
 # Usage
 
 ```
+  -auth_endpoint string
+        Auth endpoint
+  -auth_host string
+        Auth host
+  -cors_allowed_origin string
+        cors header allowedOrigins
   -host string
-        Image Server Host (default ":9999")
+        Laravel broadcasting server host
+
 ```
 example:
 ```
