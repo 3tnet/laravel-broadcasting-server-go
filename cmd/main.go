@@ -29,7 +29,7 @@ func main() {
 		host              = flag.String("host", "", "Laravel broadcasting server host")
 		authHost          = flag.String("auth_host", "", "Auth host")
 		authEndpoint      = flag.String("auth_endpoint", "", "Auth endpoint")
-		corsAllowedOrigin = flag.String("cors_allowed_origin", "", "cors header allowedOrigins")
+		corsAllowedOrigin = flag.String("cors_allowed_origin", "", "Cors header allowedOrigins")
 	)
 
 	flag.Usage = usage
