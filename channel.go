@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/url"
 	"github.com/ty666/go-socket.io"
-	"laravel-broadcasting-server-go/support"
+	"github.com/3tnet/laravel-broadcasting-server-go/support"
 	"github.com/pkg/errors"
 	"log"
 )
