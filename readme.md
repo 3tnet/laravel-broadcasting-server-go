@@ -38,7 +38,7 @@ docker run -d -p 9999:9999 registry.cn-hangzhou.aliyuncs.com/ty666/laravel-broad
   -auth_host string
         Auth host
   -cors_allowed_origin string
-        cors header allowedOrigins
+        Cors header allowedOrigins
   -host string
         Laravel broadcasting server host
 
